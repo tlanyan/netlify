@@ -34,7 +34,7 @@ googleAnalytics = ""
 	pagetitle = "tlanyan"
 
 	# Add a subtitle to your website
-	subtitle = "这里记录每一天"
+	subtitle = "时光虚度，随手记录每一天"
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
@@ -43,7 +43,7 @@ googleAnalytics = ""
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/vitae.jpg"
+	#avatar = "/img/vitae.jpg"
 
 	# Optional favicons for website
 	favicon = true
