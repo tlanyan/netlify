@@ -1,5 +1,11 @@
 {{ define "main" -}}
-<h1 class="page-title">{{ .Name }}</h1>
+<h1 class="page-title">
+	{{ if eq .Name "tags" }}
+	标签
+	{{ else }}
+	分类
+	{{ end }}
+</h1>
 <div class="tag-cloud">
 	{{ if .Data.Terms }}
 	{{ $max := add (len (index $.Data.Terms.ByCount 0).Pages) 0.001 }}

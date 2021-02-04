@@ -2,7 +2,13 @@
 {{ if isset .Data "Term" }}
 <h1 class="page-title">{{ humanize .Data.Term }}</h1>
 {{ else }}
-<h1 class="page-title">{{ .Title }}</h1>
+<h1 class="page-title">
+	{{ if eq .Title "Posts" }}
+	文章
+	{{ else }}
+	{{ .Title }}
+	{{ end }}
+</h1>
 {{ end }}
 {{.Content}}
 <ul class="posts flat">
