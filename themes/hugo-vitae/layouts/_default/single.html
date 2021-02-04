@@ -46,7 +46,13 @@
 	{{ else }}
 	<div class="tags">
 		<div class="taxosfloating_left">
-			<p>{{ $taxonomyname | humanize }}</p>
+			<p style="font-weight: 900;">
+				{{ if eq $taxonomyname "tags" }}
+				标签
+				{{ else }} 
+				分类
+				{{ end }}
+			</p>
 		</div>
 		<div class="termsfloating_right">
 			<p>
