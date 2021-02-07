@@ -106,10 +106,10 @@ url = "/categories"
 weight = 5
 
 # Social Menu
-[[params.social]]
-name = "Github"
-icon = "fab fa-github"
-url = "https://github.com/tlanyan/netlify"
+#[[params.social]]
+#name = "Github"
+#icon = "fab fa-github"
+#url = "https://github.com/tlanyan/netlify"
 
 #[[params.social]]
 #name = "Email"
